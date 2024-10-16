@@ -69,15 +69,14 @@
                             <div class="description">
                                 <h3>La Bossue</h3>
                                 <span>A Cafeteria La Bussue é um café delicado e acolhedor no centro da cidade. Oferece uma variedade de bebidas quentes, lanches e sobremesas deliciosas. A equipe é simpática e atenciosa, proporcionando uma atmosfera relaxante para os clientes desfrutarem.</span>
-                               <p> <a href="paginaReservar.jsp?local=La%20Bossue&imagem=https://images.unsplash.com/photo-1581683705068-ca8f49fc7f45?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link">Reservar</a></p>
+                                <p><a href="paginaCardapio.jsp?local=La%20Bossue&imagem=https://images.unsplash.com/photo-1581683705068-ca8f49fc7f45?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link">Reservar</a></p> 
                             </div>
                         </div>
                     </div>
                     <div class="box">
                         
                         <div class="box-content">
-                            <img src="https://images.unsplash.com/photo-1602594323720-79b579e4d20e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                                 " alt="Descrição da imagem">
+                            <img src="https://images.unsplash.com/photo-1602594323720-79b579e4d20e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descrição da imagem">
                             <h3>Patissier</h3>
                             <span>A Cafeteria Patissier é um destino irresistível para os amantes de doces, oferecendo uma variedade de sobremesas finas e deliciosas, criadas com maestria por patissiers talentosos.</span>
                           <p>  <a href="paginaReservar.jsp?local=Patissier&imagem=https://images.unsplash.com/photo-1602594323720-79b579e4d20e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link">Reservar</a></p>
@@ -86,8 +85,7 @@
                     <div class="box">
                         
                         <div class="box-content">
-                            <img src="https://images.unsplash.com/photo-1570038281437-550322a86cb8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                                 " alt="Descrição da imagem">
+                            <img src="https://images.unsplash.com/photo-1570038281437-550322a86cb8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descrição da imagem">
                             <h3>Casa francesa</h3>
                             <span>A Casa Francesa é um elegante café que oferece uma autêntica experiência francesa, com uma variedade de delícias culinárias inspiradas na gastronomia francesa clássica.</span>
                            <p> <a href="paginaReservar.jsp?local=Casa%20francesa&imagem=https://images.unsplash.com/photo-1570038281437-550322a86cb8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link" >Reservar</a></p>
@@ -96,8 +94,7 @@
                     <div class="box">
                         <div class="box-content">
                             
-                            <img src="https://images.unsplash.com/photo-1591261730799-ee4e6c2d16d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                                 " alt="Descrição da imagem">
+                            <img src="https://images.unsplash.com/photo-1591261730799-ee4e6c2d16d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descrição da imagem">
                             <h3>Café Bilhares</h3>
                             <span>O Café Bilhares é um espaço único que combina o prazer de jogar bilhar com a experiência de desfrutar de bebidas e petiscos deliciosos em um ambiente descontraído e acolhedor.</span>
                            <p> <a href="paginaReservar.jsp?local=Café%20Bilhares&imagem=https://images.unsplash.com/photo-1591261730799-ee4e6c2d16d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link">Reservar</a></p>
@@ -134,18 +131,16 @@
                     <div class="box">
                        
                         <div class="box-content">
-                            <img src="https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                                 " alt="Descrição da imagem">
+                            <img src="https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descrição da imagem">
                             <h3>Horizonte Sereno</h3>
-                            <span>otel conceitual que promete uma experiência de hospedagem relaxante e revigorante. Ele transmite uma sensação de calma e paz, convidando os hóspedes a desfrutarem de uma estadia tranquila e rejuvenescedora.</span>
+                            <span>Hotel conceitual que promete uma experiência de hospedagem relaxante e revigorante. Ele transmite uma sensação de calma e paz, convidando os hóspedes a desfrutarem de uma estadia tranquila e rejuvenescedora.</span>
                            <p> <a href="paginaReservar.jsp?local=Horizonte%20Sereno&imagem=https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link">Reservar</a></p>
                         </div>
                     </div>
                     <div class="box">
                        
                         <div class="box-content">
-                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                                 " alt="Descrição da imagem">
+                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descrição da imagem">
                             <h3>Praia Resort</h3>
                             <span>uma estadia relaxante e tranquila à beira-mar, onde os hóspedes podem desfrutar da serenidade da praia enquanto são mimados com serviços de resort.</span>
                             <p><a href="paginaReservar.jsp?local=Praia%20Resort&imagem=https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="reservation-link">Reservar</a></p>

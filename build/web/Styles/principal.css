@@ -131,7 +131,7 @@ header {
     text-align: center;
 }
 
-/* Estilo para produtos */
+
 .products-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -190,8 +190,8 @@ header {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 60px; /* Ajuste conforme necessário */
-    left:0px; /* Ajuste conforme necessário */
+    top: 60px; 
+    left:0px; 
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
