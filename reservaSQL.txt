@@ -7,23 +7,33 @@ CREATE TABLE usuarios (
     senha VARCHAR(100) NOT NULL
 );
 
+-- Criando a tabela de estabelecimentos
+CREATE TABLE estabelecimentos (
+    id_estabelecimento INT AUTO_INCREMENT PRIMARY KEY,
+    nome_estabelecimento VARCHAR(100) NOT NULL,
+    tipo_estabelecimento ENUM('cafeteria', 'hotel', 'gastrobar') NOT NULL
+);
+
 -- Criando a tabela de reservas
 CREATE TABLE reservas (
     id_reserva INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario INT NOT NULL,
-    local_reserva VARCHAR(100) NOT NULL,
+    id_estabelecimento INT NOT NULL,
     data_reserva DATE NOT NULL,
     hora_reserva TIME NOT NULL,
-    FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
+    FOREIGN KEY (id_usuario) REFERENCES usuarios(id),
+    FOREIGN KEY (id_estabelecimento) REFERENCES estabelecimentos(id_estabelecimento)
 );
 
 -- Criando a tabela de cardápios
 CREATE TABLE cardapios (
     id_cardapio INT AUTO_INCREMENT PRIMARY KEY,
+    id_estabelecimento INT NOT NULL,
     nome_prato VARCHAR(100) NOT NULL,
     descricao TEXT,
     preco DECIMAL(10, 2) NOT NULL,
-    categoria ENUM('entrada', 'prato principal', 'sobremesa', 'bebida') NOT NULL
+    categoria ENUM('entrada', 'prato principal', 'sobremesa', 'bebida') NOT NULL,
+    FOREIGN KEY (id_estabelecimento) REFERENCES estabelecimentos(id_estabelecimento)
 );
 
 -- Criando a tabela de itens de cardápio
@@ -81,3 +91,19 @@ CREATE TABLE itens_pedido (
     preco_unitario DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (id_pagamento) REFERENCES pagamentos(id_pagamento)
 );
+
+-- Inserindo os estabelecimentos (cafeterias, hotéis e gastrobares)
+INSERT INTO estabelecimentos (nome_estabelecimento, tipo_estabelecimento) VALUES
+('La Bussue', 'cafeteria'),
+('Patissier', 'cafeteria'),
+('Casa Francesa', 'cafeteria'),
+('Café Bilhares', 'cafeteria'),
+('Hotel Lux', 'hotel'),
+('Hotel Marítimo', 'hotel'),
+('Horizonte Sereno', 'hotel'),
+('Praia Resort', 'hotel'),
+('Gastrobar Fusion', 'gastrobar'),
+('Gastrobar Vintage', 'gastrobar'),
+('Relax Gastrobar', 'gastrobar'),
+('Urbano Gastrobar', 'gastrobar');
+
