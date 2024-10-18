@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
         <link rel="stylesheet" href="Styles/reservar.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-        <title>FaÁa sua Reserva</title>
+        <title>Fa√ßa sua Reserva</title>
     </head>
     <body>
         <div class="container">
@@ -23,7 +23,7 @@
                             <label for="Reserva">Reserva</label>
                             <% 
                             request.setCharacterEncoding("UTF-8");
-                            // Recuperar os par‚metros 'local' e 'id' da URL
+                            // Recuperar os parÔøΩmetros 'local' e 'id' da URL
                             String local = request.getParameter("local");
                             String imagem = request.getParameter("imagem");
                             String id = request.getParameter("id"); // Supondo que 'id' seja passado na URL
@@ -54,9 +54,9 @@
         </div>
 
         <div class="button-wrapper">
-            <a href="paginaPrincipal.jsp" class="button-voltar">Voltar ‡ p·gina principal</a>
-            <!-- Bot„o Ver Card·pio -->
-            <a href="paginaCardapio.jsp?local=<%= local %>&id=<%= id %>" class="button-ver-cardapio">Ver Card·pio</a>
+            <a href="paginaPrincipal.jsp" class="button-voltar">Voltar a p√°gina principal</a>
+            <!-- BotÔøΩo Ver CardÔøΩpio -->
+            <a href="paginaCardapio.jsp?local=<%= local %>&id=<%= id %>" class="button-ver-cardapio">Ver Card√°pio</a>
         </div>
     </body>
 </html>
