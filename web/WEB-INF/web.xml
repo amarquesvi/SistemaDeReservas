@@ -64,4 +64,12 @@
         <servlet-name>ExcluirReservaServlet</servlet-name>
         <url-pattern>/excluir.do</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ExibirCardapioServlet1</servlet-name>
+        <servlet-class>br.com.bean.ExibirCardapioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExibirCardapioServlet1</servlet-name>
+        <url-pattern>/ExibirCardapio.do</url-pattern>
+    </servlet-mapping>
 </web-app>

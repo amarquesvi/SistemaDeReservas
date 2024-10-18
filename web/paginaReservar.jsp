@@ -56,7 +56,7 @@
         <div class="button-wrapper">
             <a href="paginaPrincipal.jsp" class="button-voltar">Voltar a página principal</a>
             <!-- Bot�o Ver Card�pio -->
-            <a href="paginaCardapio.jsp?local=<%= local %>&id=<%= id %>" class="button-ver-cardapio">Ver Cardápio</a>
+            <a href="${pageContext.request.contextPath}/ExibirCardapio.do?local=<%= local %>&id=<%= id %>" class="button-ver-cardapio">Ver Cardápio</a>
         </div>
     </body>
 </html>
